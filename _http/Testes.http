@@ -1,0 +1,13 @@
+@baseUrl=http://localhost:5142
+
+###
+POST  {{baseUrl}}/Audaces/RetornaCombinacao
+accept: text/plain
+User-Agent: vscode-restclient
+Content-Type: application/json
+
+
+{
+  "sequence": [ 5, 20, 2, 1 ],
+  "target": 47
+}
